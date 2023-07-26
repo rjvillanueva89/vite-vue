@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import Datatable from "./components/Datatable.vue"
 import NavBar from "./components/NavBar.vue"
+import UserTable from "./components/UserTable.vue"
 </script>
 
 <template>
   <NavBar msg="Vite + Vue" />
-  <div class="container">
-    <Datatable />
+  <div class="container p-4">
+    <UserTable />
   </div>
 </template>
 
